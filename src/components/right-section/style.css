@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.left-section {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.iconContainer{
+    opacity: 1;
+    padding-left: 40px;
+    display: flex;
+}
+
+.iconContainer > div{
+    color: #fff !important;
+    opacity: 1;
+    font-size: 1rem;
+    margin-left: 6px;
+}
+
+.iconSubheading{
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.5;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.headingContainer {
+    font-size: 5rem;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+.right-section {
+    flex: 1;
+    height: 60vh;
+    overflow-y: auto;
+    margin-right: 100px;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(300px);
+    scroll-snap-type: y mandatory;
+}
+
+.cardsContainer{
+    height: 60vh;
+    width: 80%;
+    margin: auto;
+    background: #0e0e0f;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    scroll-snap-align: start;
+}
+
+.cardsIconStyle{
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.cardsHeading{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+.cardsSubHeading{
+    margin-top: -20px;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.5;
+    padding: 0 20px;
+}

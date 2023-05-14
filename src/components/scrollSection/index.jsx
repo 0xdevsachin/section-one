@@ -38,6 +38,7 @@ const ScrollSection = () => {
   useEffect(() => {
     const scrollableContent = document.querySelector('.App');
     scrollableContent.addEventListener('scroll', handleScroll);
+    // eslint-disable-next-line
   }, [])
   return (
     <div className="App">
